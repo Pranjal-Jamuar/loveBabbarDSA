@@ -8,11 +8,11 @@ int main()
   cout << "Enter the number:";
   cin >> num;
 
-  if (num >= 0)
+  if (num > 0)
   {
     cout << "The number entered is positive.";
   }
-  else if (num <= 0)
+  else if (num < 0)
   {
     cout << "The number entered is negative.";
   }
